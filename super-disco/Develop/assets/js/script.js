@@ -8,7 +8,7 @@ $(".saveTime").on("click", function(){
     saveTask(textEl);
   });
 
-// function to update colors based on time
+// function to update colors based on time relative to current
 var updateColors = function() {
     // shows current date
     var currentDay = moment().format("dddd, MMMM Do YYYY");
