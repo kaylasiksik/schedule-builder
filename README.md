@@ -2,6 +2,8 @@
 
 The present project features a calendar app to help with scheduling.
 
+Moment.js was employed to use and display date and time data. 
+
 When the webpage loads, a blank daily calendar appears.
 
 The current date is displayed at the top, with a work day scheduler below.
