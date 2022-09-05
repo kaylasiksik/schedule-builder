@@ -21,7 +21,7 @@ var updateColors = function() {
         // retrieve time data from time slot
         var timeSlot = parseInt($(this).children()[1].getAttribute("id").replace("t-",""));
 
-        // grey = past time 
+        // grey = past time
         if (timeSlot < currentHr) {
             $(this).find(".time-col").removeClass("green")
             $(this).find(".time-col").removeClass("red")
@@ -77,7 +77,7 @@ var loadSchedule = function() {
 loadSchedule();
 updateColors();
 
-// update colors by minute
+// update colors each minute
 setInterval(function () {
     updateColors()
 }, 60000);
