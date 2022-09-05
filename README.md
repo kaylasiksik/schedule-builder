@@ -3,10 +3,13 @@
 The present project features a calendar app to help with scheduling.
 
 When the webpage loads, a blank daily calendar appears.
+
 The current date is displayed at the top, with a work day scheduler below.
 
 _Past time_ (hours) is **grey**.
+
 _Current time_ (hourly) is **red**.
+
 _Future times_ (hours) that have yet to pass are **green**.
 
 When users **click** on a given **time slot**, they can **input text** to create an item for that time block.
